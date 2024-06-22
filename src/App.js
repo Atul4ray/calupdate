@@ -31,7 +31,7 @@ function App() {
         <input type="text" className="display" value={result} ref={inputRef}/>
       </form>
       <div className="keypad">
-        <button id="clear" onClick={clear}>Clearok</button>
+        <button id="clear" onClick={clear}>Clear</button>
         <button id="backspace" onClick={backspace}>C</button>
         <button name="+" onClick={handleClick}>+</button>
         <button name="7" onClick={handleClick}>7</button>
